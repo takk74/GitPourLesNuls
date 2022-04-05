@@ -80,3 +80,13 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 ### Lister tout les tags
 > git tag
 =
+
+## Git Flow
+
+(x = numéro de version, y = numéro de release, z = numéro de hotfix)
+
+### `git flow release start x.y.z` 
+> créer une branche release basé sur la branche dévelop. 
+
+### `git flow release finish 'x.y.z'`
+> La branche release sera mergée dans la branche main et la branche dévelop
