@@ -4,7 +4,7 @@ tags: courses, B3 BWSM, cheat sheet, git
 ---
 
 ![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-
+[![Fabriqué en - France](https://img.shields.io/badge/Fabriqué_en-France_🇫🇷-1A90FF)](https://portfolio.corentinperroux.fr)
 ## Git c'est quoi ?
 
 ### Centralisé vs Décentralisé (SVN vs GIT)
