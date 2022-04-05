@@ -80,3 +80,6 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 ### Lister tout les tags
 > git tag
 =
+
+### `git flow feature start FEATURE_BRANCH`
+> Crée une nouvelle branche par fonctionnalité
