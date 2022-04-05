@@ -3,6 +3,8 @@ title: Git Cheat Sheet Collaborative
 tags: courses, B3 BWSM, cheat sheet, git
 ---
 
+[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
+
 ## Git c'est quoi ?
 
 ### Centralisé vs Décentralisé (SVN vs GIT)
