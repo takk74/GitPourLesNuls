@@ -112,3 +112,10 @@ Cette ligne permet d'initialiser une projet git flow. Après avoir créer le pro
 - Release = branche de production
 - Hotfix = branche de correction de bug urgent
 - Support = branche pour les versions de support (mineures ou multiple majeures)
+
+### `git flow feature start FEATURE_BRANCH`
+> Crée une nouvelle branche par fonctionnalité
+
+### `git flow feature finish`
+> Permet de terminer le développement de la fonctionnalité. Dans le même temps, elle fusionne la branch de feature avec 'develop', supprime cette branche et passe sur la branche 'develop'.
+
