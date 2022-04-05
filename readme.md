@@ -82,4 +82,4 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 =
 
 ### `git flow feature start FEATURE_BRANCH`
-> Crée une nouvelle branche par fonctionnalité.
+> Crée une nouvelle branche par fonctionnalité
