@@ -90,3 +90,7 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 
 ### `git flow release finish 'x.y.z'`
 > La branche release sera mergée dans la branche main et la branche dévelop
+
+### `git flow feature finish`
+> Permet de terminer le développement de la fonctionnalité. Dans le même temps, elle fusionne la branch de feature avec 'develop', supprime cette branche et passe sur la branche 'develop'.
+
