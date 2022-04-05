@@ -1,3 +1,5 @@
+[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
 ## Git c'est quoi ?
 
 ### Centralisé vs Décentralisé (SVN vs GIT)
