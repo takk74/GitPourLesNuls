@@ -80,7 +80,10 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 ### Lister tout les tags
 > git tag
 =
-## Git flow
+
+### `git flow feature start FEATURE_BRANCH`
+> Crée une nouvelle branche par fonctionnalité
 
 ### `git flow feature finish`
 > Permet de terminer le développement de la fonctionnalité. Dans le même temps, elle fusionne la branch de feature avec 'develop', supprime cette branche et passe sur la branche 'develop'.
+
