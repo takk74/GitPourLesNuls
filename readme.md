@@ -1,9 +1,8 @@
----
-title: Git Cheat Sheet Collaborative
-tags: courses, B3 BWSM, cheat sheet, git
----
 
 [![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
+![](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 ## Git c'est quoi ?
 
@@ -80,5 +79,4 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 
 ### Lister tout les tags
 > git tag
-
-## Rebase
+=
