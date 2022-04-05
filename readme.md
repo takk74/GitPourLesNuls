@@ -80,3 +80,8 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 ### Lister tout les tags
 > git tag
 =
+
+## Git Flow
+
+Git flow est un modèle de branching Git. Celui-ci permet nottament d'automatiser la création de branches et le merge de celles-ci vers une branche de développement puis de production.
+
