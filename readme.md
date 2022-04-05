@@ -80,5 +80,3 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 
 ### Lister tout les tags
 > git tag
-
-## Rebase
