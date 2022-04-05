@@ -1,8 +1,3 @@
----
-title: Git Cheat Sheet Collaborative
-tags: courses, B3 BWSM, cheat sheet, git
----
-
 ## Git c'est quoi ?
 
 ### Centralisé vs Décentralisé (SVN vs GIT)
@@ -78,5 +73,3 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 
 ### Lister tout les tags
 > git tag
-
-## Rebase
