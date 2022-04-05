@@ -81,6 +81,38 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
 > git tag
 =
 
+## Git Flow
+
+Git flow est un modèle de branching Git. Celui-ci permet nottament d'automatiser la création de branches et le merge de celles-ci vers une branche de développement puis de production.
+
+### Git flow init
+
+Cette ligne permet d'initialiser une projet git flow. Après avoir créer le projet git, il nous demande de spécifier le prefixe des différentes branches :
+
+> Initialized empty Git repository in ~/project/.git/
+> <br>
+> No branches exist yet. Base branches must be created now.
+> <br>
+> Branch name for production releases: [main]
+> Branch name for "next release" development: [develop]
+> 
+> How to name your supporting branch prefixes?
+> <br>
+> Feature branches? [feature/]
+> <br>
+> Release branches? [release/]
+> <br>
+> Hotfix branches? [hotfix/]
+> <br>
+> Support branches? [support/]
+> <br>
+> Version tag prefix? []
+
+- Feature = branche de fonctionnalité
+- Release = branche de production
+- Hotfix = branche de correction de bug urgent
+- Support = branche pour les versions de support (mineures ou multiple majeures)
+
 ### `git flow feature start FEATURE_BRANCH`
 > Crée une nouvelle branche par fonctionnalité
 
