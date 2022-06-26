@@ -24,74 +24,74 @@ Contrairement à Git, SVN est un système de contrôle de version centralisé. C
 
 ## Quelques commandes
 
-### `git init`
+`git init`
 > Initialiser un dépot GIT.
 
-### `git add FILE...`
+`git add FILE...`
 > Ajouter des fichiers modifiés dans la "zone de staging" (l'"index").
 
-### `git commit -m 'SOME MESSAGE'`
+`git commit -m 'SOME MESSAGE'`
 
 > Créer un commit pour effectuer une "sauvegarde".
 
-### `git stash`
+`git stash`
 > Stocker des données non "sauvegardées" afin de faire autre chose pendant un temps donné sans se soucier de ces modifications (changer de branche par exemple).
 
-### `git stash pop`
+`git stash pop`
 > Permet de réappliquer les modifications contenues dans un "stash" puis de supprimer le "stash".
 
-### `git clone URL`
+`git clone URL`
 > Cloner un dépot distant sur sa propre machine et ainsi créer un dépot local du dépot distant en question.
 
-### `git push`
+`git push`
 > Envoyer l'état du dépot local sur le dépot distant.
 
-### `git pull` 
+`git pull` 
 > Récupérer l'état du dépot distant sur le dépot local.
 
 ## Branches
 Git fonctionne avec un système de branches qui permet de cloisonner l’avancée de chacun.
 
-### `git branch NEW_BRANCH` 
+`git branch NEW_BRANCH` 
 > Cette commande permet de créer une nouvelle branche. Dans ce cas précis, la branche s'appellera "NEW_BRANCH".
 
-### `git checkout NEW_BRANCH`
+`git checkout NEW_BRANCH`
 > Cette commande permet de changer de branche. Dans ce cas précis, on se déplace sur la branche "NEW_BRANCHE".
 
-#### Argument `-b`
+Argument `-b`
 > Spécifier -b provoque la création d’une nouvelle branche.
 
-### `git merge NEW_BRANCH`
+`git merge NEW_BRANCH`
 > Cette commande permet de fusionner le code de la branche "NEW_BRANCHE" sur la branche actuelle. 
 
-### `git rebase OLD_BRANCH`
+`git rebase OLD_BRANCH`
 > Permet de transférer notre branche sur une autre. Et sera donc considérer comme la suite de celle-ci.
 > Applique l'historique d'une branche sur une autre branche.
 
-### `git branch -D SOME_BRANCH`
+`git branch -D SOME_BRANCH`
 > Cette commande permet de supprimer une branche même s'il reste du contenu non sauvegardé dessus.
 
 ## Tagging
 
-### `git tag -a 1.4 -m 'ma version 1.4'`
+`git tag -a 1.4 -m 'ma version 1.4'`
 > Crée le tag 1.4 et lui donne la message "ma version 1.4"
 
-### Lister tout les tags
-> git tag
-=
+`git tag`
+> Lister tout les tags
+
 
 ## Git Flow
 
 (x = numéro de version, y = numéro de release, z = numéro de hotfix)
 
-### `git flow release start x.y.z` 
+`git flow release start x.y.z` 
 > créer une branche release basé sur la branche dévelop. 
 
-### `git flow release finish 'x.y.z'`
+`git flow release finish 'x.y.z'`
 > La branche release sera mergée dans la branche main et la branche dévelop
  Git flow est un modèle de branching Git. Celui-ci permet nottament d'automatiser la création de branches et le merge de celles-ci vers une branche de développement puis de production.
 
- ### Git flow init
+`git flow init`
 
  Cette ligne permet d'initialiser une projet git flow. Après avoir créer le projet git, il nous demande de spécifier le prefixe des différentes branches :
 
@@ -119,15 +119,15 @@ Git fonctionne avec un système de branches qui permet de cloisonner l’avancé
  - Hotfix = branche de correction de bug urgent
  - Support = branche pour les versions de support (mineures ou multiple majeures)
 
- ### `git flow feature start FEATURE_BRANCH`
+`git flow feature start FEATURE_BRANCH`
  > Crée une nouvelle branche par fonctionnalité
 
- ### `git flow feature finish`
+`git flow feature finish`
  > Permet de terminer le développement de la fonctionnalité. Dans le même temps, elle fusionne la branch de feature avec 'develop', supprime cette branche et passe sur la branche 'develop'.
  (x = numéro de version, y = numéro de release, z = numéro de hotfix)
 
- ### `git flow release start x.y.z` 
+`git flow release start x.y.z` 
  > créer une branche release basé sur la branche dévelop. 
 
- ### `git flow release finish 'x.y.z'`
+`git flow release finish 'x.y.z'`
  > La branche release sera mergée dans la branche main et la branche dévelop
