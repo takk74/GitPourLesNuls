@@ -1,26 +1,26 @@
 
-[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
-![](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
-![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-## Git c'est quoi ?
+# Git c'est quoi ?
 
-### Centralisé vs Décentralisé (SVN vs GIT)
+## Centralisé vs Décentralisé (SVN vs GIT)
 
 Contrairement à Git, SVN est un système de contrôle de version centralisé. Cela signifie que sur Git, chaque participant a un clone de l'ensemble du référentiel alors que SVN fonctionne avec référentiel central. 
 ![](https://i.imgur.com/1y5hsmC.jpg)
 
 
-### Les 5 niveaux de Git
+## Les 5 niveaux de Git
 
 ![](https://i.imgur.com/00plXRF.png)
 
-* La remise `stash`: **C'est un endroit où on va pouvoir stocker des modifications (les figer dans le temps), pendant que l'on change de branche par exemple. Une fois qu'on en a besoin, on peut les récupérer comme si rien ne s'était passé.**
-* L’Espace de travail workspace: **Notre flux de travail, c'est là où on travail, notre base de code.**
-* L’Index index: **C'est la "zone de staging", c'est là où on enregistre les changements avant de les commit. C'est une sorte de pré-enregistrement pour choisir ce que l'on va commit.**
-* Le dépot Local Local Repository: **C'est l'endroit où l'on va stocker les changement après avoir commit. C'est le stockage des commit et c'est ici que se créé l'historique. C'est là que sont stocké tous nos changement et toutes nos branches au fur et à mesure de l'avancée du projet.**
-* Le dépot Distant Remote Repository: **C'est la même chose que le repository local (dépot local) mais sur un serveur exterieur (Github, Gitlab, Bitbucket,...). On peut envoyer nos modifications locales (sur le dépot local) sur le dépot distant afin de les stocker ailleurs et pouvoir les récupérer n'importe où et n'importe quand dans le monde. C'est également grace à ça qu'on va pouvoir partager du code, récupérer du code et collaborer avec d'autres développeurs sur des projets open-source.**
+* La remise `stash`: C'est un endroit où on va pouvoir stocker des modifications (les figer dans le temps), pendant que l'on change de branche par exemple. Une fois qu'on en a besoin, on peut les récupérer comme si rien ne s'était passé.
+* L’Espace de travail workspace: Notre flux de travail, c'est là où on travail, notre base de code.
+* L’Index index: C'est la "zone de staging", c'est là où on enregistre les changements avant de les commit. C'est une sorte de pré-enregistrement pour choisir ce que l'on va commit.
+* Le dépot Local Local Repository: C'est l'endroit où l'on va stocker les changement après avoir commit. C'est le stockage des commit et c'est ici que se créé l'historique. C'est là que sont stocké tous nos changement et toutes nos branches au fur et à mesure de l'avancée du projet.
+* Le dépot Distant Remote Repository: C'est la même chose que le repository local (dépot local) mais sur un serveur exterieur (Github, Gitlab, Bitbucket,...). On peut envoyer nos modifications locales (sur le dépot local) sur le dépot distant afin de les stocker ailleurs et pouvoir les récupérer n'importe où et n'importe quand dans le monde. C'est également grace à ça qu'on va pouvoir partager du code, récupérer du code et collaborer avec d'autres développeurs sur des projets open-source.
 
 
 ## Quelques commandes
