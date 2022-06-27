@@ -14,6 +14,7 @@ Contrairement à Git, SVN est un système de contrôle de version centralisé. C
 ### Les 5 niveaux de Git
 
 ![](https://i.imgur.com/00plXRF.png)
+Crédit image : Henri LARGET
 
 * La remise `stash`: **C'est un endroit où on va pouvoir stocker des modifications (les figer dans le temps), pendant que l'on change de branche par exemple. Une fois qu'on en a besoin, on peut les récupérer comme si rien ne s'était passé.**
 * L’Espace de travail workspace: **Notre flux de travail, c'est là où on travail, notre base de code.**
