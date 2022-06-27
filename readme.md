@@ -10,7 +10,6 @@
 Contrairement à Git, SVN est un système de contrôle de version centralisé. Cela signifie que sur Git, chaque participant a un clone de l'ensemble du référentiel alors que SVN fonctionne avec référentiel central. 
 ![](https://i.imgur.com/1y5hsmC.jpg)
 
-
 ## Les 5 niveaux de Git
 
 ![](https://i.imgur.com/00plXRF.png)
@@ -21,7 +20,6 @@ Crédit image : Henri LARGET
 * L’Index index: C'est la "zone de staging", c'est là où on enregistre les changements avant de les commit. C'est une sorte de pré-enregistrement pour choisir ce que l'on va commit.
 * Le dépot Local Local Repository: C'est l'endroit où l'on va stocker les changement après avoir commit. C'est le stockage des commit et c'est ici que se créé l'historique. C'est là que sont stocké tous nos changement et toutes nos branches au fur et à mesure de l'avancée du projet.
 * Le dépot Distant Remote Repository: C'est la même chose que le repository local (dépot local) mais sur un serveur exterieur (Github, Gitlab, Bitbucket,...). On peut envoyer nos modifications locales (sur le dépot local) sur le dépot distant afin de les stocker ailleurs et pouvoir les récupérer n'importe où et n'importe quand dans le monde. C'est également grace à ça qu'on va pouvoir partager du code, récupérer du code et collaborer avec d'autres développeurs sur des projets open-source.
-
 
 ## Quelques commandes
 
@@ -69,10 +67,15 @@ Argument `-b`
 > Permet de transférer notre branche sur une autre. Et sera donc considérer comme la suite de celle-ci.
 > Applique l'historique d'une branche sur une autre branche.
 
+### La différence entre merge et rebase ?
+Le merge est une solution sûre, qui préserve tout l'historique de votre dépôt, tandis que le rebase génère un historique linéaire en déplaçant votre branche de fonctionnalité sur la pointe de la branche principale
+
 `git branch -D SOME_BRANCH`
 > Cette commande permet de supprimer une branche même s'il reste du contenu non sauvegardé dessus.
 
 ## Tagging
+### A quoi çela sert ?
+Les tags sont des réfs qui pointent vers des points spécifiques de l'historique Git. Les tags sont généralement utilisés pour capturer un point de l'historique utilisé pour une version marquée
 
 `git tag -a 1.4 -m 'ma version 1.4'`
 > Crée le tag 1.4 et lui donne la message "ma version 1.4"
